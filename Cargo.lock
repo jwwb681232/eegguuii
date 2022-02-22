@@ -371,6 +371,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9ea835d29036a4087793836fa931b08837ad5e957da9e23886b29586fb9b6650"
 
 [[package]]
+name = "eegguuii"
+version = "0.1.0"
+dependencies = [
+ "eframe",
+ "serde",
+]
+
+[[package]]
 name = "eframe"
 version = "0.16.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -381,14 +389,6 @@ dependencies = [
  "egui_glium",
  "egui_web",
  "epi",
-]
-
-[[package]]
-name = "eframe_template"
-version = "0.1.0"
-dependencies = [
- "eframe",
- "serde",
 ]
 
 [[package]]
